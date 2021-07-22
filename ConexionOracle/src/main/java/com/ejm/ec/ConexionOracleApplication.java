@@ -13,6 +13,8 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import com.ejm.ec.model.Canton;
 
 @SpringBootApplication
+
+//ESTO HAY  QUE DESHABILITAR SOLO CUAND SE USA JDBC
 /*public class ConexionOracleApplication  implements CommandLineRunner  {
 	
 	@Autowired

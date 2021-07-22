@@ -13,7 +13,7 @@ public class CiudadService {
 	@Autowired
 	private CantonRepository cantonRepository;
 	
-	// Obtenga toda la información
+	// Obtenga toda la información DE LOS CANTONES
     public List<Ciudad> getAllCity() {
         return cantonRepository.findAll();
     }
